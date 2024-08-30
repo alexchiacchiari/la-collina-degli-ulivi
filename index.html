@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bed and Breakfast - Prenotazioni</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+        h2 {
+            color: #4CAF50;
+            text-align: center;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            padding: 10px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benvenuti al nostro Bed and Breakfast</h1>
+        <nav>
+            <ul>
+                <li><a href="#chi-siamo">Chi siamo</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+                <li><a href="#dicono-di-noi">Dicono di noi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="chi-siamo" class="section">
+            <h2>Chi siamo</h2>
+            <p>Benvenuti nel nostro Bed and Breakfast! Offriamo un'accoglienza calorosa e servizi di qualità per rendere il vostro soggiorno indimenticabile. La nostra struttura è situata in una posizione ideale per esplorare le meraviglie locali.</p>
+        </section>
+
+        <section id="servizi" class="section">
+            <h2>Servizi</h2>
+            <ul>
+                <li>Camere confortevoli</li>
+                <li>Colazione inclusa</li>
+                <li>Wi-Fi gratuito</li>
+                <li>Parcheggio privato</li>
+                <li>Escursioni organizzate</li>
+            </ul>
+        </section>
+
+        <section id="contatti" class="section">
+            <h2>Contatti</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Messaggio" rows="5" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+
+        <section id="dicono-di-noi" class="section">
+            <h2>Dicono di noi</h2>
+            <p>"Un'esperienza fantastica! Il servizio è impeccabile e l'atmosfera è meravigliosa."</p>
+            <p>"Siamo stati accolti come in famiglia. Lo consigliamo a tutti!"</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bed and Breakfast - Tutti i diritti riservati</p>
+    </footer>
+</body>
+</html>
