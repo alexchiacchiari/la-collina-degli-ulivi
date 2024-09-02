@@ -1,0 +1,67 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+}
+h2 {
+    
+    text-align: center;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('assets/fonts/pacifico/Pacifico.ttf') format('truetype');
+}
+
+.title-font {
+    font-family: 'Pacifico', sans-serif; /* fallback to sans-serif if font fails to load */
+    color: #9AB361;
+}
+
+.nav-item {
+    padding-top: 5px;
+    
+}
