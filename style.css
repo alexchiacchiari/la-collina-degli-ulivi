@@ -47,12 +47,31 @@ h2 {
     src: url('assets/fonts/pacifico/Pacifico.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Gelato';
+    src: url(assets/fonts/gelato/Gelato.ttf) format('truetype');
+}
+
 .title-font {
     font-family: 'Pacifico', sans-serif; /* fallback to sans-serif if font fails to load */
     color: #9AB361;
 }
 
+.title-font-L {
+    font-family: 'Gelato', sans-serif; /* fallback to sans-serif if font fails to load */
+    color: #9AB361;
+    font-size: calc(1.675rem + .3vw) !important;;
+    font-weight: bolder;
+    font-style: italic;
+}
+
 .nav-item {
     padding-top: 5px;
-    
+}
+
+/* Center the text in the lightbox caption */
+.glightbox-container .gdesc {
+    text-align: center; /* Center the text */
+    width: 100%;        /* Make sure the caption area takes full width */
+    padding: 10px;      /* Optional: add some padding for better readability */
 }
