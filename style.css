@@ -23,24 +23,7 @@ h2 {
     
     text-align: center;
 }
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 2rem auto;
-}
-.contact-form input, .contact-form textarea {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-}
-.contact-form button {
-    padding: 10px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-}
+
 
 @font-face {
     font-family: 'Pacifico';
@@ -74,4 +57,20 @@ h2 {
     text-align: center; /* Center the text */
     width: 100%;        /* Make sure the caption area takes full width */
     padding: 10px;      /* Optional: add some padding for better readability */
+}
+
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button 20px from the bottom */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ffffff; /* Set background color */
+    color: white; /* Set text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
 }
