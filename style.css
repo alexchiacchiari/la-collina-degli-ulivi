@@ -25,6 +25,7 @@ h2 {
 }
 
 
+
 @font-face {
     font-family: 'Pacifico';
     src: url('assets/fonts/pacifico/Pacifico.ttf') format('truetype');
@@ -74,3 +75,4 @@ h2 {
     border-radius: 50px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
 }
+
